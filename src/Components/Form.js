@@ -7,7 +7,7 @@ class Form extends React.Component{
 
     onSubmitClick = async (event) => {
         event.preventDefault();
-        await Axios.post("http://localhost:8000/getInTouch", this.state.user)
+        await Axios.post("https://portfolio-drishti.herokuapp.com/getInTouch", this.state.user)
         .then(({data}) => {
             console.info(data);
         })
