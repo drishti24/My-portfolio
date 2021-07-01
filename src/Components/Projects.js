@@ -85,10 +85,10 @@ class Projects extends React.Component{
             
              */}
 
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src={ BrickGame} alt="First slide"/>
+        <div id="carousel" className="carousel slide" data-ride="carousel">
+            <div className="carousel-inner">
+                <div className="carousel-item active">
+                    <img className="projectimg" src={ BrickGame} alt="First slide"/>
                     <div className="content">
                             <a className="header">Brick Breaker</a>
                             
@@ -110,8 +110,8 @@ class Projects extends React.Component{
                             </div>        
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src={ScientificCalc} alt="Second slide"/>
+                <div className="carousel-item">
+                    <img className="projectimg" src={ScientificCalc} alt="Second slide"/>
                     <div className="content">
                             <a className="header">Scientific Calculator</a>
                             
@@ -132,8 +132,8 @@ class Projects extends React.Component{
                             </div>        
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src={Port} alt="Third slide"/>
+                <div className="carousel-item">
+                    <img className="projectimg" src={Port} alt="Third slide"/>
                     <div className="content">
                             <a className="header">Portfolio</a>
                             
@@ -147,20 +147,20 @@ class Projects extends React.Component{
                             </div>
                             <br/>
                             <div className="giticon">
-                            <a href="https://drishti24.github.io/Brick-Breaker/" className="">
+                            <a href="https://elated-hugle-390dd0.netlify.app/" className="">
                                     <i aria-hidden="true" className="huge github icon"></i>
                                 </a>
                             </div>        
                     </div>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
+            <a className="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span className="sr-only">Previous</span>
             </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
+            <a className="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                <span className="sr-only">Next</span>
             </a>
             </div>
 

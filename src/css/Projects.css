@@ -28,13 +28,13 @@ div.tech{
   padding: 0 3px 3px 3px;
 }
 
-/* @media only screen and (min-width: 930px){
+ /* @media only screen and (min-width: 930px){
     div.carousel.slide{
         display: none;
     }
-}
+} */
 
-@media only screen and (max-width: 930px) {
+/*@media only screen and (max-width: 930px) {
     /* body{
         background-color: beige;
     } */ */
@@ -72,5 +72,16 @@ div.tech{
     div.giticon{
       display: inline-block;
       background-color: white;
+    }
+    img.projectimg{
+      width: 100%;
+    }
+
+    span.carousel-control-prev-icon{
+      margin-left: 0vh;
+    }
+
+    span.carousel-control-next-icon{
+      margin-right: 0vh;
     }
 

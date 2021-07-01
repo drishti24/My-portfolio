@@ -14,7 +14,7 @@ class App extends React.Component{
       
         <Router>
               <div> 
-              <div class="ui inverted borderless fixed menu" id="myNav">
+              <div className="ui inverted borderless fixed menu" id="myNav">
                 <a href="#homepage" className="item">
                     Home
                 </a>
