@@ -147,7 +147,7 @@ class Projects extends React.Component{
                             </div>
                             <br/>
                             <div className="giticon">
-                            <a href="https://elated-hugle-390dd0.netlify.app/" className="">
+                            <a href="https://drishti-arora-portfolio.netlify.app/" className="">
                                     <i aria-hidden="true" className="huge github icon"></i>
                                 </a>
                             </div>        
