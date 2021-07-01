@@ -98,9 +98,26 @@ class Form extends React.Component{
             <br />
           
                 <div className="ui right labeled button" role="button" tabIndex="0" className="mysendbutton">
-                    <button className="ui icon button" type="submit" onClick={this.onSubmitClick}>
+                    <button data-toggle="modal" data-target="#exampleModalCenter" className="ui icon button" type="submit" onClick={this.onSubmitClick}>
                     <i aria-hidden="true" className="paper plane icon"></i>  Send Message
                     </button>
+                </div>
+
+                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Message sent</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            Thank you for responding!
+                        </div>
+                        
+                        </div>
+                    </div>
                 </div>
                 
             </form>
