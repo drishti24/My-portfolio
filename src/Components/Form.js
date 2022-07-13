@@ -34,7 +34,7 @@ class Form extends React.Component{
                     <div className="field">
                         <i aria-hidden="true" className="user icon"></i>Full Name:
                         <div className = "inputstyle">
-                        <input type="text" name="fullName"
+                        <input type="text" name="fullName" required
                             onChange={(e) => {
                                 this.setState({
                                 user: {
@@ -82,7 +82,7 @@ class Form extends React.Component{
                     <div className="field">
                         <i aria-hidden="true" className="envelope icon"></i>Message:
                         <div className = "inputstyle">
-                        <textarea rows="3" name="message" 
+                        <textarea rows="3" name="message"
                             onChange={(e) => {
                                 this.setState({
                                 user: {
