@@ -50,7 +50,7 @@ class Form extends React.Component{
                     <div className="field">
                         <i aria-hidden="true" className="at icon"></i>Email:
                         <div className = "inputstyle">
-                        <input type="email" name="email"
+                        <input type="email" name="email" required
                             onChange={(e) => {
                                 this.setState({
                                 user: {
@@ -66,7 +66,7 @@ class Form extends React.Component{
                     <div className="field">
                         <i aria-hidden="true" className="mobile alternate icon"></i>Phone No.:
                         <div className = "inputstyle">
-                        <input type="tel" name="phoneNo"
+                        <input type="tel" name="phoneNo" required
                             onChange={(e) => {
                                 this.setState({
                                 user: {
