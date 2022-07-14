@@ -34,7 +34,7 @@ class Form extends React.Component{
                     <div className="field">
                         <i aria-hidden="true" className="user icon"></i>Full Name:
                         <div className = "inputstyle">
-                        <input type="text" name="fullName" required
+                        <input type="text" name="fullName" required="required"
                             onChange={(e) => {
                                 this.setState({
                                 user: {
@@ -50,7 +50,7 @@ class Form extends React.Component{
                     <div className="field">
                         <i aria-hidden="true" className="at icon"></i>Email:
                         <div className = "inputstyle">
-                        <input type="email" name="email" required
+                        <input type="email" name="email" required="required"
                             onChange={(e) => {
                                 this.setState({
                                 user: {
@@ -66,7 +66,7 @@ class Form extends React.Component{
                     <div className="field">
                         <i aria-hidden="true" className="mobile alternate icon"></i>Phone No.:
                         <div className = "inputstyle">
-                        <input type="tel" name="phoneNo" required
+                        <input type="tel" name="phoneNo" required="required"
                             onChange={(e) => {
                                 this.setState({
                                 user: {
